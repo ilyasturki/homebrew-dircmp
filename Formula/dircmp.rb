@@ -3,6 +3,7 @@ class Dircmp < Formula
   homepage "https://github.com/ilyasturki/dircmp"
   version "1.0.3"
   license "MIT"
+  bottle :unneeded
 
   on_macos do
     on_arm do
