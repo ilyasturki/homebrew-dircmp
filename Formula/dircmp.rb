@@ -1,28 +1,28 @@
 class Dircmp < Formula
   desc "Terminal TUI for comparing two directories side by side"
   homepage "https://github.com/ilyasturki/dircmp"
-  version "1.5.0"
+  version "1.5.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/ilyasturki/dircmp/releases/download/v#{version}/dircmp-darwin-arm64"
-      sha256 "7cb98e8af10d2a798b7cab7e479e215a2b785e0f63f2b178a7b4ffabab7d7b3e"
+      sha256 "b6eeb2a5c5a3b0ca587374c7f83cb106160a97b5a916c8ef9f3c721881214632"
     end
     on_intel do
       url "https://github.com/ilyasturki/dircmp/releases/download/v#{version}/dircmp-darwin-x64"
-      sha256 "5fefbda44e117f43e071e12f2f5bb96390b059da209cbce50e81b54ecd57f59e"
+      sha256 "f766caa2f69d08535e82cea3099ec8e160301e3e63794b4fd0fffb15a2c5cc4f"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ilyasturki/dircmp/releases/download/v#{version}/dircmp-linux-arm64"
-      sha256 "4066b3e2db92a3265cf18f9dcbd3e0dae489a749fcd1429676ed70618b2e7a52"
+      sha256 "d78cb467312a41b54ebe21739302d7f7065e6d7c8dfb37d8b99e487e23319182"
     end
     on_intel do
       url "https://github.com/ilyasturki/dircmp/releases/download/v#{version}/dircmp-linux-x64"
-      sha256 "ce9d6e3f69560d5b7bcf7cc07c4720d25a4b63ccda4dfcf85b01dbcf9bdd75b8"
+      sha256 "51edb1bff641895f0dc195548fa1a06892a2171ed509c0d8f62fe5e334267b2b"
     end
   end
 
